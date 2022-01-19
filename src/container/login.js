@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "./Login.css";
+import { Auth } from "aws-amplify";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -11,13 +12,31 @@ export default function Login() {
     return email.length > 0 && password.length > 0;
   }
 
-  function handleSubmit(event) {
+   async function handleSubmit(event) {
+    event.preventDefault();
+  
+    try {
+      await Auth.signIn(email, password);
+      alert("Logged in");
+    } catch (e) {
+      alert(e.message);
+    }
+  } (event) {
     event.preventDefault();
   }
 
   return (
     <div className="Login">
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={async function handleSubmit(event) {
+  event.preventDefault();
+
+  try {
+    await Auth.signIn(email, password);
+    alert("Logged in");
+  } catch (e) {
+    alert(e.message);
+  }
+}}>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>
           <Form.Control
