@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
-import "./Login.css";
+import "./login.css";
 import { Auth } from "aws-amplify";
 
 export default function Login() {
@@ -21,10 +21,7 @@ export default function Login() {
     } catch (e) {
       alert(e.message);
     }
-  } (event) {
-    event.preventDefault();
-  }
-
+  } 
   return (
     <div className="Login">
       <Form onSubmit={async function handleSubmit(event) {
