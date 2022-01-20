@@ -2,6 +2,8 @@
 import React from "react";
 
 function Recipes() {
+  const { loading, data } = useQuery(QUERY_RECIPES);
+
   return (
     <div className="recipes">
       <div class="container">

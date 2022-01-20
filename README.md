@@ -3,7 +3,7 @@
   ![NPM](https://img.shields.io/npm/l/glob?style=flat-square)
 
   ## Description
-  {Project 3} is app that will give you random recipes. If you hit the random button, it will randomly generate a recipe for you to try. 
+  I Chews You! is app that will give you random recipes. If you hit the random button, it will randomly generate a recipe for you to try. 
 
   ## Table of Contents
   * [Links](#links)
