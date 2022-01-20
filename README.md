@@ -12,8 +12,8 @@
   * [Contributors](#contributors)
 
   ## Links
-  Website: https://shrouded-hamlet-34041.herokuapp.com/
-  Repository: https://github.com/1ance-301/project-three.git
+  - Website: https://shrouded-hamlet-34041.herokuapp.com/
+  - Repository: https://github.com/1ance-301/project-three.git
   
 
   ## Usage
