@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <footer class="py-1 purple-1 fixed-bottom">
+      <footer class="navbar navbar-expand purple-1 fixed-bottom align-bottom">
         <div class="container">
         <div class="footimg">
         <img
@@ -12,11 +12,11 @@ function Footer() {
               alt="I Chews You! Logo Small."
             /> 
         </div>
-        <div>
+{/*         <div>
           <p class="text-center green-1">
             Copyright &copy; I Chews You! 2022
           </p>
-        </div>
+        </div> */}
         </div>
       </footer>
     </div>
