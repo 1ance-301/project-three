@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #7CAFC4;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.purple-1 {
+  background-color: #3C1B43;
+}
+
+.navbar-brand > h1 {
+  color: #D4E79E;
+}
+
+.green-1 {
+  color: #D4E79E;
+}
+
+.footimg {
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column;
+  width: 50vw;
+  min-width: 300px; 
+  text-align: center; 
+  margin: 5% auto;
 }

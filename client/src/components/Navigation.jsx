@@ -4,10 +4,15 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
     return (
         <div className="navigation">
-          <nav className="navbar navbar-expand navbar-dark bg-dark">
+          <nav className="navbar navbar-expand navbar-dark purple-1">
             <div className="container">
+            <img
+              class="img-fluid rounded mb-4 mb-lg-0"
+              src=".\assets\images\logo-2.png"
+              alt="I Chews You! Logo Small."
+            />        
               <NavLink className="navbar-brand" to="/">
-                Ready, Set... Recipe
+               <h1> Chews You!</h1>
               </NavLink>
               <div>
                 <ul className="navbar-nav ml-auto">
