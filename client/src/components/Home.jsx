@@ -8,15 +8,15 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
-              alt=""
+              src=".\assets\images\home.jpg"
+              alt="I Chews You! Homepage Image."
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Home</h1>
-            <p>
-              Welcome Message and How This Works?
-            </p>
+            <h1>Upcoming Dinner Party? Big Date? Can't Decide What to Cook?</h1>
+            <h2 class="font-weight-light">
+            'I Chews You!' is your answer. Allow us to generate a random recipe that will impress your guests.
+            </h2>
           </div>
         </div>
       </div>

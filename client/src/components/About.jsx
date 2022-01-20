@@ -15,7 +15,7 @@ function About() {
           <div class="col-lg-5">
             <h1 class="font-weight-light">About</h1>
             <p>
-              About our group. Contact Info. Resourses Used?
+              
             </p>
           </div>
         </div>
