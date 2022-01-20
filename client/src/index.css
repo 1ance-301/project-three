@@ -31,9 +31,9 @@ code {
   justify-content: center; 
   flex-direction: column;
   width: 50vw;
-  min-width: 300px; 
+  min-width: 100px; 
   text-align: center; 
-  margin: 5% auto;
+  margin: 0 auto;
 }
 
 .about-us {
