@@ -33,11 +33,6 @@ function Navigation() {
                     </NavLink>
                   </li>
                   <li className="nav-item">
-                    <NavLink className="nav-link" to="/account">
-                      Account
-                    </NavLink>
-                  </li>
-                  <li className="nav-item">
                     <NavLink className="nav-link" to="../container/login.js">
                       Login
                     </NavLink>
