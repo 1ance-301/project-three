@@ -1,7 +1,10 @@
-
+import { QUERY_RECIPES } from '../utils/queries';
 import React from "react";
+import {  useQuery } from '@apollo/client'
 
 function Recipes() {
+  const { data } = useQuery(QUERY_RECIPES);
+
   return (
     <div className="recipes">
       <div class="container">
@@ -15,9 +18,9 @@ function Recipes() {
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">Recipes</h1>
-            <p>
-              Page to search and save recipes. Also Randomize.
-            </p>
+            <div>
+              {data}
+            </div>
           </div>
         </div>
       </div>
