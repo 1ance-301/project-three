@@ -14,11 +14,22 @@ function Recipes() {
             />
           </div>
           <div class="col-lg-5">
-            <h1 class="font-weight-light">Recipes</h1>
-            <p>
-              Page to search and save recipes. Also Randomize.
-            </p>
-          </div>
+            <h1>Recipes</h1>
+            <form action="/" method="get">
+              <label htmlFor="header-search">
+              <span className="visually-hidden">Search Recipes</span>
+              </label>
+            <input
+            type="text"
+            id="header-search"
+            placeholder="Ingredients"
+            name="Search" 
+            />
+        <button type="submit">Chews!</button>
+          </form>
+          <p class="box navbar navbar-expand">
+	        This box will contain the searched recipe.</p>
+        </div>
         </div>
       </div>
     </div>

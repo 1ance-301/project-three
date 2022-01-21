@@ -15,7 +15,7 @@ function Home() {
           <div class="col-lg-5">
             <h1>Upcoming Dinner Party? Big Date? Can't Decide What to Cook?</h1>
             <h2 class="font-weight-light">
-            'I Chews You!' is your answer. Allow us to generate a random recipe that will impress your guests.
+            'I Chews You!' is your answer. Allow us to bring you recipe that will impress your guests.
             </h2>
           </div>
         </div>
